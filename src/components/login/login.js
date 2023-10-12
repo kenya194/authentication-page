@@ -1,20 +1,13 @@
 import React from 'react'
-import './signup.css'
-import {BiUser} from 'react-icons/bi'
+import './login.css'
 import {AiOutlineMail} from 'react-icons/ai'
 import {RiLockPasswordFill} from 'react-icons/ri'
 
-
-const Signup = () => {
+const login = () => {
   return (
     <div>
         <div className='header'>
-          <h1>Sign up</h1>
-        </div>
-
-        <div className='user'>
-          <BiUser />
-          <input type='text' placeholder='Enter Name'/>
+          <h1>Sign in</h1>
         </div>
 
         <div className='email'>
@@ -26,20 +19,8 @@ const Signup = () => {
           <RiLockPasswordFill />
           <input type='password' placeholder='Password'/>
         </div>
-
-        <div className='button__actions'>
-          <button className='sign__up'>
-            Signup
-          </button>
-          
-          <button className='log__in'>
-            Login
-          </button>
-        </div>
-
-
     </div>
   )
 }
 
-export default Signup;
+export default login
