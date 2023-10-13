@@ -1,1 +1,18 @@
+body{
+    background-color: black;
+}
 
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    background-color: aliceblue;
+}
+
+.header{
+    text-align: center;
+    color: blue;
+    font-size: larger;
+}

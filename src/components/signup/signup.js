@@ -7,25 +7,27 @@ import {RiLockPasswordFill} from 'react-icons/ri'
 
 const Signup = () => {
   return (
-    <div>
+    <div className='container'>
         <div className='header'>
           <h1>Sign up</h1>
         </div>
 
-        <div className='user'>
+        <div className='input'>
           <BiUser />
           <input type='text' placeholder='Enter Name'/>
         </div>
 
-        <div className='email'>
+        <div className='input'>
           <AiOutlineMail />
           <input type='email' placeholder='Enter Email'/>
         </div>
 
-        <div className='password'>
+        <div className='input'>
           <RiLockPasswordFill />
           <input type='password' placeholder='Password'/>
         </div>
+
+        <div className='password__actions'>Forgot Password? <span>click here</span></div>
 
         <div className='button__actions'>
           <button className='sign__up'>
