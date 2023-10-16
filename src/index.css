@@ -16,3 +16,27 @@ body{
     color: blue;
     font-size: larger;
 }
+
+.inputs{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 70px;
+    border-radius: 5px;
+    background: silver;
+}
+
+.input input{
+    height: 40px;
+    width: 400px;
+    font-size: 19px;
+}
+

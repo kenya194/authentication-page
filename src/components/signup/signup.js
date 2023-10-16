@@ -11,7 +11,7 @@ const Signup = () => {
         <div className='header'>
           <h1>Sign up</h1>
         </div>
-
+    <div className='inputs'>
         <div className='input'>
           <BiUser />
           <input type='text' placeholder='Enter Name'/>
@@ -26,6 +26,7 @@ const Signup = () => {
           <RiLockPasswordFill />
           <input type='password' placeholder='Password'/>
         </div>
+      </div>    
 
         <div className='password__actions'>Forgot Password? <span>click here</span></div>
 
