@@ -1,3 +1,67 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    background-color: aliceblue;
+    padding-bottom: 30px;
+    width: 600px;
+    border-radius: 6px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text{
+    color: blue;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.underline{
+    width: 80px;
+    height: 6px;
+    background: blue;
+    border-radius: 8px;
+}
+
+.inputs{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 70px;
+    border-radius: 5px;
+    background: silver;
+}
+
+img{
+
+}
+
+.input input{
+    height: 40px;
+    width: 400px;
+    font-size: 19px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
 .password__actions{
     padding-left: 62px;
     margin-top: 25px;
@@ -9,13 +73,13 @@
     cursor: pointer;
 }
 
-.button__actions{
+.submit-container{
     display: flex;
     gap: 30px;
     margin: 30px auto;
 }
 
-.sign__up{
+.submit{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,17 +93,8 @@
     cursor: pointer;
 
 }
-.log__in{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 220px;
-    height: 50px;
-    color: aliceblue;
-    background: purple;
-    border-radius: 50px;
-    font-size: 15px;
-    font-weight: 700;
-    cursor: pointer;
 
+.gray{
+    background: #EAEAEA;
+    color: #676767;
 }
