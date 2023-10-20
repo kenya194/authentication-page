@@ -49,9 +49,9 @@
     background: silver;
 }
 
-/* img{
-
-} */
+.icons{
+    padding: 10px;
+}
 
 .input input{
     height: 40px;

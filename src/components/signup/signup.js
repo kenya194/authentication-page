@@ -19,17 +19,23 @@ const Signup = () => {
         </div>
       <div className='inputs'>
         <div className='input'>
+          <div className='icons'>
           <BiUser />
+          </div>
           <input type='text' placeholder='Enter Name'/>
         </div>
 
         <div className='input'>
+          <div className='icons'>
           <AiOutlineMail />
+          </div>
           <input type='email' placeholder='Enter Email'/>
         </div>
 
         <div className='input'>
+          <div className='icons'>
           <RiLockPasswordFill />
+          </div>
           <input type='password' placeholder='Password'/>
         </div>
       </div>    
